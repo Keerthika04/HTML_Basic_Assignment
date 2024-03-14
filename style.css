@@ -5,8 +5,23 @@ body {
 
 .main-header {
   background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: #fff;
   padding: 20px 30px;
+}
+
+.main-header a{
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 25px;
+}
+
+.main-header a:hover{
+  background-color: #d3f0aa;
 }
 
 .home img{
@@ -88,6 +103,59 @@ label {
 .main-content input {
   padding: 8px;
   margin-bottom: 20px;
+}
+
+.login .profilePic{
+  text-align: center;
+}
+
+.profilePic img{
+  width: 60%;
+  height: 60%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.login input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.login{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 35%;
+  height: 100%;
+  width: 50vh;
+}
+
+.login div{
+  text-align: center;
+}
+
+.login label{
+  margin-top: 1rem;
+}
+
+
+.login button{
+  background-color: #4caf50;
+  width: 20%;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 0 40%;
+  margin-top: 1rem;
+}
+
+.login a{
+  color: rgb(107, 153, 1);
 }
 
 .input-group {

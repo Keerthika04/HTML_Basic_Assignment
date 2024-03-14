@@ -23,20 +23,28 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <div class="content">
+    <div class="main-content">
+      <form action="" method="" class="login">
+        <div class="profilePic">
+          <img src="./images/pic.jpg" alt="" />
+        </div>
+        <label for="Username">Username:</label>
+        <input
+          type="text"
+          id="Username"
+          name="Username"
+          required
+          autocomplete="off"
+        />
 
-      <form action="" method="" class="form contact">
-        <h2>Contact Form</h3>
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" required />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
 
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <input type="submit" value="Submit" />
+        <button type="submit">Login</button>
+        <div>
+          <p>Don't have an account?</p>
+          <a href="signup.php">Sign up</a>
+        </div>
       </form>
     </div>
     <footer class="footer">
